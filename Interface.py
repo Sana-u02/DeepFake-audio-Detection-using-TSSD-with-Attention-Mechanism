@@ -1,5 +1,4 @@
-import pandas as pd
-model_name = pd.read_csv('tssd_model.h5.csv')
+
 
 # import libraries  
 from flask import Flask, render_template, request, session, g
@@ -21,7 +20,8 @@ DATABASE = "mydb.sqlite3"
 
 
 # Load the model 
-model_namee = "tssd_model.pth" 
+model_namee = "tssd_attention.pth" 
+#model_name = pd.read_csv('tssd_model.h5.csv')
 
 # Set parameters for audio feature extraction
 num_mfcc = 100
