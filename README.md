@@ -2,7 +2,7 @@
 
 As Deepfake technology advances, audio-based forgeries pose significant threats to digital security, including voice impersonation, misinformation, and fraud. This project aims to tackle these challenges by developing a robust deep learning model capable of distinguishing between real and synthetic audio.
 
-##  Project Overview
+## Project Overview
 
 This system leverages a **Time-Series Signal Detection (TSSD)** model integrated with an **Attention Mechanism** to enhance focus on key audio features. The model is trained on benchmark datasets and achieves high accuracy in classifying real and fake audio.
 
@@ -10,7 +10,7 @@ This system leverages a **Time-Series Signal Detection (TSSD)** model integrated
 
 To build an advanced audio deepfake detection system that accurately identifies manipulated audio using time-series deep learning techniques and attention-based mechanisms.
 
-##  Features
+## Features
 
 - **TSSD Architecture**: Designed for effective temporal feature extraction from audio signals  
 - **Attention Mechanism**: Improves model sensitivity to critical audio frames  
@@ -21,12 +21,9 @@ To build an advanced audio deepfake detection system that accurately identifies 
 ## 🛠️ Tech Stack
 
 - **Python**, **NumPy**, **Librosa** – for preprocessing and feature extraction  
-- **PyTorch** – for model building and training
-- **Librosa** - (Audio processing)  
+- **PyTorch** – for model building and training  
 - **Flask** – for creating the web interface  
 - **HTML** – frontend integration  
-  
-
 
 ## 📂 Dataset
 
@@ -53,6 +50,17 @@ To build an advanced audio deepfake detection system that accurately identifies 
 | **TSSD + Attention**  | 98.20%   | 0.0505 | 0.0044 |
 | TSSD only             | 94.5%    | 0.0905 | 0.0244 |
 | Multilayer Perceptron | 88.0%    | —      | —      |
+
+---
+
+## 🔍 Comparison of EER and T-DCF Values Across Models
+
+| Model                  | EER     | T-DCF   |
+|------------------------|---------|---------|
+| **TSSD + Attention (our)** | 0.0505  | 0.0044  |
+| TSSD                   | 0.0905  | 0.0244  |
+| Vision Transformer [2] | 0.1102  | 0.1900  |
+| Neural-Stitch [5]      | 0.10    | —       |
 
 ---
 
