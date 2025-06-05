@@ -41,6 +41,10 @@ To build an advanced audio deepfake detection system that accurately identifies 
 - Fully connected layers for final classification  
 - Output: Real vs Fake audio via Softmax
 
+<img src="https://github.com/user-attachments/assets/70277c28-c765-463b-b8a5-85a4fb00052e" alt="new_arc" width="400"/>
+
+
+
 ---
 
 ## 📊 Performance
@@ -48,7 +52,7 @@ To build an advanced audio deepfake detection system that accurately identifies 
 | Model                 | Accuracy | EER    | T-DCF  |
 |-----------------------|----------|--------|--------|
 | **TSSD + Attention**  | 98.20%   | 0.0505 | 0.0044 |
-| TSSD only             | 94.5%    | 0.0905 | 0.0244 |
+| TSSD              | 94.5%    | 0.0905 | 0.0244 |
 | Multilayer Perceptron | 88.0%    | —      | —      |
 
 ---
@@ -59,8 +63,7 @@ To build an advanced audio deepfake detection system that accurately identifies 
 |------------------------|---------|---------|
 | **TSSD + Attention (our)** | 0.0505  | 0.0044  |
 | TSSD                   | 0.0905  | 0.0244  |
-| Vision Transformer [2] | 0.1102  | 0.1900  |
-| Neural-Stitch [5]      | 0.10    | —       |
+
 
 ---
 
@@ -76,4 +79,5 @@ pip install -r requirements.txt
 
 # Run the Flask app
 python app.py
+
 
