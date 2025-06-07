@@ -66,18 +66,21 @@ To build an advanced audio deepfake detection system that accurately identifies 
 
 
 ---
+## UI Preview
 
-## 💻 Getting Started
+**Front Page**
 
-```bash
-# Clone this repo
-git clone https://github.com/yourusername/deepfake-audio-detection-tssd.git
-cd deepfake-audio-detection-tssd
-
-# Install dependencies
-pip install -r requirements.txt
-
-# Run the Flask app
-python app.py
+<img src="https://github.com/user-attachments/assets/9d034bc5-0656-4384-8b7d-fea16f7343c8" alt="Front page" width="600"/>
 
 
+**Login Page**
+
+<img src="https://github.com/user-attachments/assets/a8137526-bc52-4fc5-a06e-654e4d7784f4" alt="Login Page" width="600"/>
+
+**Real Audio Result**
+
+<img src="https://github.com/user-attachments/assets/ccdba467-42d7-44b3-997e-4eb4de6d44b9" alt="REAL Audio result" width="600"/>
+
+**Fake Audio Result**
+
+<img src="https://github.com/user-attachments/assets/c3c8adcd-3ec5-41a5-8bb8-3698c0df43af" alt="FAKE Audio result" width="600"/>
