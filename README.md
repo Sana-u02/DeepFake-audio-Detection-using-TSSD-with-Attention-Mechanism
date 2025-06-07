@@ -30,6 +30,9 @@ To build an advanced audio deepfake detection system that accurately identifies 
 - **Real audio clips**: 10,000 samples from public speech datasets  
 - **Fake audio clips**: 10,000 clips generated using TTS models like WaveNet  
 - Clips are 2–3 seconds long WAV files
+- https://drive.google.com/file/d/1O_PckJtEbQWlHEMSA5gDdxRooa1S1N2p/view
+
+
 
 ---
 
@@ -70,21 +73,27 @@ To build an advanced audio deepfake detection system that accurately identifies 
 
 ### Front Page
 
-<img src="https://github.com/user-attachments/assets/9d034bc5-0656-4384-8b7d-fea16f7343c8" alt="Front page" width="600"/>
+<img src="https://github.com/user-attachments/assets/221e6594-8ad3-4309-8d8b-4345796598cb" alt="Front page" width="600"/>
 
 
 ### Login Page
 
-<img src="https://github.com/user-attachments/assets/a8137526-bc52-4fc5-a06e-654e4d7784f4" alt="Login Page" width="600"/>
+<img src="https://github.com/user-attachments/assets/ecfa4ecd-c015-4a49-8509-c3945cf12bc2" alt="Login Page" width="600"/>
 
 
 
 ### Real Audio Result
 
-<img src="https://github.com/user-attachments/assets/ccdba467-42d7-44b3-997e-4eb4de6d44b9" alt="REAL Audio result" width="600"/>
+<img src="https://github.com/user-attachments/assets/5df65406-7242-4d2a-a451-6d273ef5ffa2" alt="REAL Audio result" width="600"/>
 
 
 
 ### Fake Audio Result
 
-<img src="https://github.com/user-attachments/assets/c3c8adcd-3ec5-41a5-8bb8-3698c0df43af" alt="FAKE Audio result" width="600"/>
+<img src="https://github.com/user-attachments/assets/47dab047-7606-4017-a57b-c5bd99eab557" alt="FAKE Audio result" width="600"/>
+
+
+
+
+
+
