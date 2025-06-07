@@ -4,7 +4,7 @@ As Deepfake technology advances, audio-based forgeries pose significant threats 
 
 ## Project Overview
 
-This system leverages a **Time-Series Signal Detection (TSSD)** model integrated with an **Attention Mechanism** to enhance focus on key audio features. The model is trained on benchmark datasets and achieves high accuracy in classifying real and fake audio.
+This system leverages a **Time Domain Synthetic Speech Detection (TSSD)** model integrated with an **Attention Mechanism** to enhance focus on key audio features. The model is trained on benchmark datasets and achieves high accuracy in classifying real and fake audio.
 
 ## 🎯 Objective
 
@@ -27,8 +27,8 @@ To build an advanced audio deepfake detection system that accurately identifies 
 
 ## 📂 Dataset
 
-- **Real audio clips**: 15,000 samples from public speech datasets  
-- **Fake audio clips**: 15,000 clips generated using TTS models like WaveNet  
+- **Real audio clips**: 10,000 samples from public speech datasets  
+- **Fake audio clips**: 10,000 clips generated using TTS models like WaveNet  
 - Clips are 2–3 seconds long WAV files
 
 ---
