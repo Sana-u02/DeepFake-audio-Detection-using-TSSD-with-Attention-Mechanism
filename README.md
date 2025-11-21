@@ -90,7 +90,8 @@ To build an advanced audio deepfake detection system that accurately identifies 
 
 ### Fake Audio Result
 
-<img src="https://github.com/user-attachments/assets/47dab047-7606-4017-a57b-c5bd99eab557" alt="FAKE Audio result" width="600"/>
+<img src="https://github.com/user-attachments/assets/4b5778b7-2ff9-4b50-a4ab-637ebaa2ce75" alt="FAKE Audio result" width="600"/>
+
 
 
 
